@@ -7,6 +7,7 @@ import Coddle from './recipes/coddle'
 import FrenchToast from './recipes/french-toast'
 import Frybread from './recipes/frybread'
 import TomKhaGai from './recipes/tom-kha-gai'
+import PieDough from './recipes/pie-dough'
 
 const Navigation = styled.nav`
   display: flex;
@@ -25,6 +26,7 @@ export default function App () {
         <Link to="/french-toast">French Toast</Link>
         <Link to="/frybread">Frybread</Link>
         <Link to="/tom-kha-gai">Tom Kha Gai</Link>
+        <Link to="/pie-dough">Pie Dough</Link>
       </Navigation>
       <div>
         <Routes>
@@ -33,6 +35,7 @@ export default function App () {
           <Route path="/french-toast" element=<FrenchToast/> />
           <Route path="/frybread" element=<Frybread/> />
           <Route path="/tom-kha-gai" element=<TomKhaGai/> />
+          <Route path="/pie-dough" element=<PieDough/> />
         </Routes>
       </div>
     </>
