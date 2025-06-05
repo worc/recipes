@@ -1,7 +1,7 @@
 ---
 
 original date: October 2023
-last update: October 2023
+last update: Early 2025
 
 ---
 
@@ -14,17 +14,29 @@ last update: October 2023
   
 
 ## ingredients
+
+### First Fry
+- light oil (i've used peanut oil here, but vegetable oil is fine)
+- 2 shallots (40g), peeled, finely minced
+- optional: diced mushrooms
+- rice wine vinegar for deglazing (alternative: any white wine vinegar)
+ 
+### Then add stock / broth
 - about a liter of chicken stock
-- about 100g of galangal, all peeled, half will be sliced, half will be mashed
-- 3 stalks of lemongrass (120g), bottom half only, remove tough outer leaves
-- 2 shallots (40g), peeled, roughly smashed
-- 60ml fish sauce
-- about 700g chicken thighs, boneless skinless, cubed
-- 10 count / 4 g mikrut lime leaves, remove middle rib
-- 5 to 10 (5g to 10g) thai chiles, stemmed, smashed
-- 240ml coconut cream
-- 60ml lime juice
-- cilantro leaves (garnish)
+- 500ml coconut cream (one of those smaller tetrapacks)
+
+### Herbs & Spices & Chicken
+- 1 tablespoons of fish sauce (~30ml)
+- about a tablespoon of galangal, finely grated
+- 10 count (~4g) mikrut lime leaves, remove middle rib (alternative: thai basil)
+- 5 to 10 (5g to 10g) thai chiles, stemmed, smashed (alternative: six or seven jalepeños, cut into rings)
+- lemongrass bundle, 3 stalks (~120g), remove tough outer leaves, split lengthwise
+- about 1.5 pounds (700g) chicken thighs, boneless skinless, cubed
+
+### Garnish
+- limes cut into wedges for garnishing
+- cilantro leaves as garnish (alternative: sliced green onion or chives)
+- chili crisp also makes a good garnish
 
 ## Steps
 
