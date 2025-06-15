@@ -1,7 +1,7 @@
 ---
 
 original date: 25 October 2012
-last update: October 2023
+last update: 15 June 2025
 
 ---
 
@@ -10,20 +10,20 @@ last update: October 2023
 ## vegan frybread
 
 ### Cookware
-Large pot for deep frying
-Tongs or spider
-Thermometer
-Scale (both kitchen and drug if you want to be precise)
-Draining rack
+- Large pot for deep frying
+- Tongs or spider
+- Thermometer
+- Scale (both kitchen and drug if you want to be precise)
+- Draining rack
 
 ### Ingredients
-4 grams honey or sugar
-2 grams yeast
-~100 grams warm water
+- 4 grams honey or sugar
+- 2 grams yeast
+- ~100 grams warm water
 
-100 grams flour
-10 grams baking powder
-2 grams salt
+- 100 grams flour
+- 2 grams baking powder
+- 2 grams salt
 
 Peanut oil, or other high smoke-point oil
 
