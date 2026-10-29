@@ -1,68 +1,59 @@
 ---
 
 original date: October 2023
-last update: Early 2025
+last update: March 2026
 
 ---
 
 # tom kha gai
 
 ## cookware
+
 - mortar and pestle
-- small saucepan
-- one large saucepan or pot
-  
+- small pot
+- large pot
 
 ## ingredients
-
-### First Fry
-- light oil (i've used peanut oil here, but vegetable oil is fine)
-- 2 shallots (40g), peeled, finely minced
-- optional: diced mushrooms
-- rice wine vinegar for deglazing (alternative: any white wine vinegar)
- 
-### Then add stock / broth
 - about a liter of chicken stock
-- 500ml coconut cream (one of those smaller tetrapacks)
-
-### Herbs & Spices & Chicken
-- 1 tablespoons of fish sauce (~30ml)
-- about a tablespoon of galangal, finely grated
-- 10 count (~4g) mikrut lime leaves, remove middle rib (alternative: thai basil)
-- 5 to 10 (5g to 10g) thai chiles, stemmed, smashed (alternative: six or seven jalepeños, cut into rings)
+- 1 tablespoon of galangal, peeled and mashed
 - lemongrass bundle, 3 stalks (~120g), remove tough outer leaves, split lengthwise
+- light oil (i've used peanut oil in the past and it works out nicely)
+- (Optional) mushrooms, cut into long matchsticks iirc, maybe an 8oz box?
+- 2 shallots (40g), peeled, finely minced
+-  5 to 10 (5g to 10g) thai chilis, stemmed, diced (alternative: six or seven jalapeños, cut into half-rings)
+- rice wine vinegar
+- 1 tablespoons of fish sauce (~30ml)
 - about 1.5 pounds (700g) chicken thighs, boneless skinless, cubed
-
-### Garnish
-- limes cut into wedges for garnishing
-- cilantro leaves as garnish (alternative: sliced green onion or chives)
-- chili crisp also makes a good garnish
+- 10 count (~4g) mikrut lime leaves, remove middle rib (alternative: thai basil)
+- 500ml coconut cream (one of those smaller tetrapacks)
+- (Garnish) whole limes
+- (Garnish) cilantro or chives or green onion
+- (Garnish) chili crisp
 
 ## Steps
 
-### Galangal Stock
-1. Heat on low about a third of the chicken stock in a small sauce pan
-2. Take half the galangal, peel, mash with mortar and pestle until you get a coarse, shredded, not-quite-paste
-3. Steep the galangal in the stock, mashing in the pot periodically, continue to steep on very low heat until it's called for in the soup
+### Lemongrass-Galangal Stock
+
+1. Heat on low a third of the chicken stock in the small pot
+2. Add half the galangal
+3. Add all the lemongrass
+4. Steep on very low heat until it's called for in the soup, mashing in the pot periodically
 
 ### Soup
-1. In the large sauce pan, heat the rest of the chicken stock
-2. Peel, and slice very thinly, the remaining galangal
-3. Peel, smash the shallots
-5. Remove upper half of lemongrass, tough outer leaves, cut inner core into long diagonal cuts
-6. Add sliced galangal, lemongrass, a quarter of the fish sauce, and the shallots to the stock, bring to a boil
-7. Cube the chicken thighs now if you haven't
-8. Once boiling, add the chicken thighs
-9. Let pot come back to a boil, and then reduce hit to a bare simmer, simmer together for 20 minutes, or until the chicken is tender and cooked through
-10. Pour the galangal stock through a strainer and into the soup, mash the solid bits to press out all the good stuff
-11. Then stir in lime leaves, chiles, and coconut cream
-12. Once mixed, remove from heat, add lime juice and remaining fish sauce
-13. Garnish with cilantro (minced or not, your choice)
 
-The main pot as batches:
-1. Stock, sliced galangal, smashed shallots, lemongrass, half the fish sauce
-2. Chicken things
-3. 20 minute simmer
-4. Strained galangal stock, lime leaves, chiles, coconut cream
-5. Pull from heat
-6. Lime juice, remaining fish sauce
+1. In the large pot, heat a tablespoon of oil
+2. (Optional) cook down the mushrooms
+3. Lightly fry the shallots until just translucent
+4. Add the chilis
+5. Add the remaining galangal
+6. Deglaze with rice vinegar
+7. Add remaining chicken stock
+8. Add remaining galangal
+9. Add half the fish sauce
+10. Bring the stock to a boil (Now is a good time to cube the chicken if you haven't)
+11. Once boiling, add the chicken thighs
+12. Let pot come back to a boil, and then reduce heat to a bare simmer for 20 minutes, or until the chicken is tender and cooked through
+13. After the chicken is cooked, pour the lemongrass-galangal stock through a strainer and into the soup, mash the solid bits to press out all the good stuff
+14. Then stir in lime leaves and coconut cream
+15. Once mixed, remove from heat, add lime juice and remaining fish sauce
+16. Serve over rice or alone, garnish with whatever sounds good
