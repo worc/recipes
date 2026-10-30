@@ -8,6 +8,7 @@ import FrenchToast from './recipes/french-toast'
 import Frybread from './recipes/frybread'
 import TomKhaGai from './recipes/tom-kha-gai'
 import PieDough from './recipes/pie-dough'
+import YogurtChicken from './recipes/yogurt-chicken'
 
 const Navigation = styled.nav`
   display: flex;
@@ -27,6 +28,7 @@ export default function App () {
         <Link to="/frybread">Frybread</Link>
         <Link to="/tom-kha-gai">Tom Kha Gai</Link>
         <Link to="/pie-dough">Pie Dough</Link>
+        <Link to="/yogurt-chicken">Yogurt Chicken</Link>
       </Navigation>
       <div>
         <Routes>
@@ -36,6 +38,7 @@ export default function App () {
           <Route path="/frybread" element=<Frybread/> />
           <Route path="/tom-kha-gai" element=<TomKhaGai/> />
           <Route path="/pie-dough" element=<PieDough/> />
+          <Route path="/yogurt-chicken" element=<YogurtChicken/> />
         </Routes>
       </div>
     </>
