@@ -1,5 +1,30 @@
 # next time
 
+## copied recipes → blank notebooks (2026-10-31, evening)
+
+- **Decision (Curtis):** the six archive recipes copied from someone else stay in `old-recipes-and-notes/` as reference and aren't republished. Each gets a blank notebook instead: acorn squash, beer chili, black bean soup, carnitas (from `street-tacos`), injera, potato soup. Sources found by searching distinctive method lines; they're in each notebook's `## reference` section and in `triage.md`.
+- **Acorn squash came off the site.** The 2023 recipe moved back to `old-recipes-and-notes/acorn-squash.md`. `/acorn-squash` redirects client-side to `/notebooks/acorn-squash` (`MOVED` map in `src/index.tsx`). The server still serves the SPA shell for it, so old links land correctly, just without a prerendered preview.
+- **Coddle:** intro line saying it's process notes taken while watching Chef John's video, which also gives it a link-preview description.
+- **Not decided:** `old-recipes-and-notes/` is untracked right now. If the repo is public, committing it publishes the copies there too; a `.gitignore` line, or keeping the copies out of git, would avoid that.
+- Verified: typecheck, build (16 route shells), summaries show the blank notebooks with no `last update`, so they stay off the home page's date lists.
+
+## archive triage + home page (2026-10-31, afternoon)
+
+- **Archive:** `original text files/` is 102 files but only 32 distinct names; 29 are byte-identical across 2011/12/13. The real revisions are fry bread (3), lime cod (2), and pancake batter (2). The other 22 are staged beside Curtis's first nine, same format and dating rule (UTC-8 day of the oldest file timestamp, which reproduces all nine of his dates). Acorn squash is skipped, already live and identical. Everything is in `old-recipes-and-notes/triage.md`, including the copied-recipe question and a proposed structure-only pass. Nothing deleted, nothing published.
+- **Home page:** three featured cards (`{ featured: true }` in `src/pages.ts`: frybread, tom kha gai, caramelized onions, placeholders until Curtis picks), then "recently updated" and "longest untouched" (5 each, by `last update`). The full index shows only on narrow screens, since the sidebar covers wide ones. Data comes from page summaries the build embeds in every shell (`esbuild.pages.js`); dev regenerates them on every rebuild (checked: a date edit showed up within seconds).
+- **Renames:** the kind label "lab notebook" → "notebook", and the group "lab notes" → "notebooks", since notebooks now also hold kitchen aids.
+- Verified: typecheck, build, home at 1280 / 390 with no console errors; the date parser against every real frontmatter date plus edge cases.
+
+## style pass, titles/previews, lab notebooks (2026-10-31)
+
+Uncommitted in the working tree:
+
+- **Notebooks:** `src/notebooks/{caramelized-onions,berry-ice-cream,apple-butter}/`, reconstructed from their Recipe Book chats at their final state (onions: the post–batch 02 restructure; ice cream: the 6/25 rewrite; apple butter: initial write + all seven edits replayed). Text verbatim apart from decoding HTML entities. One fill-in: apple butter's `Final weight / volume: ___` was never updated in the chat; filled from its own results entry (½ pint).
+- **Site:** `src/pages.ts` replaces `src/recipes.ts` (recipes + notebooks); `src/page.tsx` replaces `src/recipe.tsx`; new `theme.ts`, `markdown.tsx`, `title_block.tsx`, `layout.tsx`, `home.tsx`, `meta.ts`, `prerender.ts`, `document_title.ts`. Fonts via `@fontsource/rokkitt` + `@fontsource/cascadia-code`.
+- **Titles + previews:** `document.title` follows the route; the build prerenders `dist/<route>/index.html` with `<title>`, description, `og:*`, canonical.
+- **Verified** (container nginx with the new recipes block, headless Chromium): every route loads without console errors and with the right title, at 1280 and 390 wide; `/frybread/` and `/#/tom-kha-gai` land on clean paths; HTML `no-cache`, hashed assets `immutable`; no horizontal page scroll on a phone.
+- **Deploy order matters:** the recipes `location /` in `altair/altair.conf` changed (`$uri/index.html`, no-cache on all shells). With the *old* block, the prerendered folders make nginx 301 `/frybread` → `/frybread/` (the app copes, but the 301 is permanent in browsers' caches). Deploy altair first, then `npm run deploy` here. See `human-do-this.md` §4.
+
 ## phase 1 landed in the working tree (2026-10-30, evening)
 
 Uncommitted, across four repos:

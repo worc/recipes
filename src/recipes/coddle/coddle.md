@@ -5,6 +5,8 @@ last update: 2023
 
 # dublin coddle
 
+Process notes I took while watching Chef John's Food Wishes video for Dublin coddle, which is why the amounts and instructions are so vague: they're whatever came across on screen.
+
 ## cookware
 - dutch oven
 

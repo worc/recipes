@@ -17,6 +17,8 @@
   "author": "stxalq <curtis.s.mcallister@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@fontsource/cascadia-code": "^5.3.0",
+    "@fontsource/rokkitt": "^5.3.0",
     "frontmatter-js": "^2.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

@@ -29,9 +29,9 @@ Code, tests and verification are done in the `frontmatter` repo's working tree; 
 - [x] `sudo bash scripts/certbot-names.sh remove garden-journal.stxalq.dev --dry-run`. If it passes, run it again without `--dry-run` (certbot asks you to confirm the shorter name list, then the script reloads nginx).
   - If the dry run fails on another name, the doctor's table in `CERTS.md` maps it to a fix. scarlet.dog and reuben.report are the other two names riding on this cert.
 - [x] `sudo bash scripts/cert-doctor.sh | grep -E '^(FAIL|WARN)'`: expect only `recipes.stxalq.dev is served by nginx but NOT on the cert` (that's section 2), and only once the new altair.conf is deployed.
-- [ ] Phone on cellular: `https://reuben.report` and `https://altair.stxalq.dev` load clean.
+- [x] Phone on cellular: `https://reuben.report` and `https://altair.stxalq.dev` load clean.
 - [ ] Teardown leftovers on the box: `/var/www/garden-journal.stxalq.dev` if it exists, and whatever was listening on `:42069`. Its nginx blocks and its `deploy.ts` health check are already gone in the altair working tree.
-- [ ] Deploy altair (nginx without garden-journal, plus the recipes blocks and the DDNS fixes): `sudo $(which bun) scripts/deploy.ts`. sudo's `secure_path` drops `~/.bun/bin`, hence `$(which bun)`.
+- [x] Deploy altair (nginx without garden-journal, plus the recipes blocks and the DDNS fixes): `sudo $(which bun) scripts/deploy.ts`. sudo's `secure_path` drops `~/.bun/bin`, hence `$(which bun)`.
 - [ ] `ls -l /home/robert/.bun/bin/bun`: `altair.service` hard-codes this path; a bun reinstall that moves it kills DDNS silently.
 
 ## 2. recipes.stxalq.dev
@@ -52,8 +52,15 @@ Code, tests and verification are done in the `frontmatter` repo's working tree; 
 
 ## 3. GitHub
 
-- [ ] Once `recipes.stxalq.dev` is proven: leave Pages serving `docs/` on `main` (which will just be the redirect page), or turn Pages off in repo settings once you're sure nothing points at `worc.github.io/recipes` anymore.
-- [ ] Commit/push: agents leave changes in the working tree; you review and push.
+- [x] Once `recipes.stxalq.dev` is proven: leave Pages serving `docs/` on `main` (which will just be the redirect page), or turn Pages off in repo settings once you're sure nothing points at `worc.github.io/recipes` anymore. (leaving as a redirect for now)
+- [x] Commit/push: agents leave changes in the working tree; you review and push.
+
+## 4. style pass + lab notebooks go live (2026-10-31)
+
+- [ ] Review / commit the recipes working tree (new `src/notebooks/`, the site rewrite, planning docs) and the altair `altair.conf` change.
+- [ ] **altair first:** `sudo diff /etc/nginx/altair.conf altair.conf` (expect only the recipes `location /` block), then `sudo $(which bun) scripts/deploy.ts --skip-ddns`.
+- [ ] **then recipes:** `npm install && npm run deploy` (new font packages).
+- [ ] Spot-check from a phone: `https://recipes.stxalq.dev/notebooks/caramelized-onions`; paste a recipe link into a chat app or Bluesky and see the title + description preview.
 
 ## later / optional
 
