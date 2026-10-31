@@ -7,6 +7,12 @@ last update: 15 June 2025
 
 # frybread
 
+Mostly built from scratch: I stripped the dough down to as little as I could get away with, then rebuilt the ratios by trial and error.
+
+That's why the vegan version has no fat in it. I watched too many batches dissolve into the frying oil. "Scratch" is generous, though. Grandma Betty's heavy hand with the baking powder was the inspiration, and I only started walking the baking powder back once I was making much bigger batches.
+
+For a while I was mixing aluminum and aluminum-free baking powder. The aluminum kind gave a better, more even color but brought a bitterness to the dough. I've stopped worrying about that, since yeast, rises, and rests do most of the lifting now and the baking powder has come down so far.
+
 ## vegan frybread
 
 ### Cookware

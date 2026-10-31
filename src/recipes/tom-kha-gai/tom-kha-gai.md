@@ -7,6 +7,10 @@ last update: March 2026
 
 # tom kha gai
 
+One of those recipes that makes you realize you can make your favorite food. No one can stop you.
+
+It started with a really good lemongrass soup back in high school, then tom kha itself turned up later through some restaurant or delivery order. What really brought it back into my life was H Mart and Fubonn, where you can get everything you need for the best chicken soup there is.
+
 ## cookware
 
 - mortar and pestle

@@ -36,7 +36,7 @@ Things that exist elsewhere (conversations, the Claude project, my head) and cou
 ## site, later
 
 - **A photo per recipe.** Next after the archive is wrangled. Probably a `photo:` frontmatter key (or a `<slug>.jpg` beside the markdown) feeding both the title block and the featured cards; the coddle process photos are the first candidates.
-- **Intros for frybread and tom kha gai.** Both are featured but have no intro paragraph before their first `##`, so their home cards and link previews have no description. One or two sentences each would do it.
+- ~~**Intros for frybread and tom kha gai.**~~ Written from Curtis's notes (2026-10-31).
 
 - **og:image.** Link previews are text-only (`twitter:card summary`). A rendered title-block card per page (build-time, e.g. Playwright screenshot of a card route) would be very on-brand.
 - ~~**Dates on the home index.**~~ Done 2026-10-31: page summaries embedded in every shell.
