@@ -1,9 +1,16 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import { HashRouter} from 'react-router-dom'
-import { createGlobalStyle } from 'styled-components'
+import { Router, Link, Switch, Route } from 'wouter'
+import styled, { createGlobalStyle } from 'styled-components'
 
-import App from './App'
+import { RECIPES } from './recipes'
+import Recipe from './recipe'
+
+// The GitHub Pages era used HashRouter (/#/frybread). Keep those links working by
+// moving the hash path into the real path before the router reads the location.
+if (window.location.hash.startsWith('#/')) {
+  window.history.replaceState(null, '', window.location.hash.slice(1))
+}
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -11,15 +18,41 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-const container = document.getElementById('app')
+const Navigation = styled.nav`
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+`
 
-const root = createRoot(container)
+function Home () {
+  return (
+    <>
+      <h1>recipes</h1>
+      <ul>
+        { RECIPES.map(({ slug, name }) => (
+          <li key={slug}><Link href={`/${slug}`}>{name}</Link></li>
+        )) }
+      </ul>
+    </>
+  )
+}
 
-root.render(
-  <>
+createRoot(document.getElementById('app')!).render(
+  <Router>
     <GlobalStyle/>
-    <HashRouter>
-      <App/>
-    </HashRouter>
-  </>
+    <Navigation>
+      <Link href='/'>Home</Link>
+      { RECIPES.map(({ slug, name }) => <Link key={slug} href={`/${slug}`}>{name}</Link>) }
+    </Navigation>
+    <main>
+      <Switch>
+        <Route path='/' component={Home}/>
+        { RECIPES.map(({ slug, markdown }) => (
+          <Route key={slug} path={`/${slug}`}><Recipe url={markdown}/></Route>
+        )) }
+        <Route><h2>404</h2></Route>
+      </Switch>
+    </main>
+  </Router>
 )

@@ -2,7 +2,7 @@
 
 ## what this is
 
-A personal recipe book that's an ongoing conversation with myself: recipes I actually cook, written the way I actually cook them, with the tricks and preferences built up over years. Published as a small static site on GitHub Pages, mostly so it's reachable from a phone in the kitchen.
+A personal recipe book that's an ongoing conversation with myself: recipes I actually cook, written the way I actually cook them, with the tricks and preferences built up over years. Published as a small static site, mostly so it's reachable from a phone in the kitchen. Currently on GitHub Pages; headed for `recipes.stxalq.dev` on Altair, with Pages retired to a redirect.
 
 ## how it fits together
 
@@ -16,3 +16,4 @@ A personal recipe book that's an ongoing conversation with myself: recipes I act
 - Recipes carry their own process notes and failure modes, not just steps
 - Low-friction add-a-recipe (one folder, no wiring)
 - A clear home for lab-notebook-style experiment logs, distinct from finished recipes
+- Served from `recipes.stxalq.dev` on Altair; GitHub Pages retired to a redirect

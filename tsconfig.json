@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
-    "allowJs": true,
+    "allowJs": false,
     "esModuleInterop": true,
     "jsx": "react",
-    "outDir": "./dist/"
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext",
+    "noEmit": true
   },
   "include": [
-    "./src/**/*"
+    "src/"
   ]
 }

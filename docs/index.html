@@ -1,1 +1,29 @@
-<!doctype html><html lang="en"><head><title>Recipes</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script defer="defer" src="bundle.0f2276fe297dd8a57c43.js"></script></head><body><div id="app"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>recipes have moved</title>
+  <!-- no-JS fallback: land on the home page -->
+  <noscript><meta http-equiv="refresh" content="0; url=https://recipes.stxalq.dev/"></noscript>
+  <link rel="canonical" href="https://recipes.stxalq.dev/">
+  <script>
+    // GitHub Pages is retired. Old links looked like worc.github.io/recipes/#/frybread;
+    // carry the recipe along: #/frybread → recipes.stxalq.dev/frybread.
+    // (404.html is a copy of this file, so a stray worc.github.io/recipes/frybread works too.)
+    (function () {
+      var target = '/'
+      if (location.hash.indexOf('#/') === 0) {
+        target = location.hash.slice(1)
+      } else {
+        var path = location.pathname.replace(/^\/recipes\/?/, '/').replace(/index\.html$/, '')
+        if (path !== '/') target = path
+      }
+      location.replace('https://recipes.stxalq.dev' + target)
+    })()
+  </script>
+</head>
+<body>
+  <p>The recipes moved to <a href="https://recipes.stxalq.dev/">recipes.stxalq.dev</a>.</p>
+</body>
+</html>
