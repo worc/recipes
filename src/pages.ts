@@ -12,6 +12,7 @@ import frybread from './recipes/frybread/frybread.md'
 import pieDough from './recipes/pie-dough/pie-dough.md'
 import tomKhaGai from './recipes/tom-kha-gai/tom-kha-gai.md'
 import yogurtChicken from './recipes/yogurt-chicken/yogurt-chicken.md'
+import breakfastSandwich from './recipes/breakfast-sandwich/breakfast-sandwich.md'
 
 import acornSquash from './notebooks/acorn-squash/acorn-squash.md'
 import appleButter from './notebooks/apple-butter/apple-butter.md'
@@ -51,6 +52,7 @@ const notebook = (slug: string, name: string, markdown: string, { featured = fal
   ({ kind: 'notebook', slug, name, markdown, path: `/notebooks/${slug}`, featured })
 
 export const RECIPES: ReadonlyArray<PageEntry> = [
+  recipe('breakfast-sandwich', 'Breakfast Thyme for Two', breakfastSandwich),
   recipe('coddle', 'Coddle', coddle),
   recipe('french-toast', 'French Toast', frenchToast),
   recipe('frybread', 'Frybread', frybread, { featured: true }),
